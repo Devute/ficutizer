@@ -1,0 +1,266 @@
+	/*=======================================================
+
+	// NAVIGATION
+
+=========================================================*/
+	
+	hr {
+		background-color: #fff;
+	}
+	
+	.affix {
+		background: #fff;
+	}
+	/*=======================================================
+
+	// FOR 0 TO 767;
+
+=========================================================*/
+	
+	@media screen and (max-width: 767px) {
+		.navbar-custom {
+			border: none;
+			background-color: rgba(157, 29, 178, 0.9);
+		}
+		.navbar-collapse {
+			background-color: rgba(157, 29, 178, 0.7);
+		}
+	}
+	/*============================= End Navigation =============================*/
+	/*=======================================================
+
+	// HEADER SECTION
+
+=========================================================*/
+	
+	.header .btn-default {
+		background-color: #fff;
+		border: none;
+		color: #444343;
+	}
+	
+	.header .btn-default:hover,
+	.header .btn-default:active,
+	.header .btn-default:focus {
+		color: #fff !important;
+		background-color: #E42A32 !important;
+	}
+	/*============================= End Header Section =============================*/
+	/*=======================================================
+
+	// SECOND SECTION
+
+=========================================================*/
+	
+	.service:hover {
+		border: 1px solid #fff;
+		box-shadow: 0px 25px 55px 0px rgba(0, 0, 0, 0.2);
+	}
+	
+	.service:hover i {
+		color: #E42A32;
+	}
+	
+	.service:hover h5 {
+		color: #E42A32;
+	}
+	
+	.service a:hover,
+	.service aF:active,
+	.service a:focus {
+		color: #E42A32
+	}
+	/*============================= End Second Section =============================*/
+	/*=======================================================
+
+	// Third SECTION
+
+=========================================================*/
+	
+	.about .black-overlay .colored-overlay {
+		background-color: rgb(228,42,50) !important;
+	}
+	/*============================= End Third Section =============================*/
+	/*=======================================================
+
+	// Fourth SECTION
+
+=========================================================*/
+	.portfolio ul li:hover {
+	  color: #e42a32;
+	  cursor: pointer;
+	}
+	
+	.portfolio ul li.active {
+		color: #E42A32;
+	}
+	
+	.hover-overlay {
+		background-color: rgba(157, 29, 178, 0.7);
+	}
+	/*============================= End Fourth Section =============================*/
+	/*=======================================================
+
+	// Fifth SECTION
+
+=========================================================*/
+	
+	.single-member-link {
+		background-color: #444343;
+	}
+	/*============================= End Fifth Section =============================*/
+	/*=======================================================
+
+	// Sixth SECTION
+
+=========================================================*/
+	
+	.blog-btn .btn-default:hover,
+	.blog-btn .btn-default:active,
+	.blog-btn .btn-default:focus {
+		background: #fff;
+		color: #E42A32;
+		border: 1px solid #e42a32;
+	}
+	/*============================= End Sixth Section =============================*/
+	/*=======================================================
+
+	// Seventh SECTION
+
+=========================================================*/
+	/*============================= End Seventh Section =============================*/
+	/*=======================================================
+
+	// Eighth SECTION
+
+=========================================================*/
+	
+	.owl-theme .owl-nav [class*='owl-']:hover {
+		color: #E72A33;
+	}
+	
+	.owl-theme .owl-dots .owl-dot span {
+		border: 1px solid #fff;
+	}
+	
+	.owl-theme .owl-dots .owl-dot span:hover,
+	.owl-theme .owl-dots .owl-dot.active span {
+		background-color: #fff;
+	}
+	/*============================= End Eighth Section =============================*/
+	/*=======================================================
+
+	// Ninth SECTION
+
+=========================================================*/
+	/*============================= End Ninth Section =============================*/
+	/*=======================================================
+
+	// Tenth SECTION
+
+=========================================================*/
+	
+	.contact-form-overlay {
+		background-color: rgb(228,42,50);
+	}
+	
+	.contact-form .form-control {
+		border: 1px solid #fff;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	.contact-form.form-control:focus {
+		border-color: #fff;
+		outline: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	.contact-form .btn {
+	  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	  border: 1px solid white;
+	  color: white;
+	  -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+		box-shadow: none;
+	}
+ 
+	
+	.contact-form .btn-sbm:hover,
+	.contact-form .btn-sbm:active,
+	.contact-form .btn-sbm:focus,
+	.contact-form .btn-sbm.active,
+	.contact-form .btn-sbm.focus {
+		color: #E42A32;
+		background-color: #fff;
+		outline: none;
+	}
+	
+	.contact-form .btn-sbm.active,
+	.contact-form .btn-sbm.focus {
+		color: #444343;
+		background-color: #fff;
+	}
+	/*=======================================================
+
+	// Footer SECTION
+
+=========================================================*/
+	
+	footer {
+		background-color: #444343
+	}
+
+	.footer-bottom-area {
+	  background: #373737;
+	}
+    .padding-top-bottom {
+    	padding: 60px 0 30px;
+    }
+    .footer-left-side {
+	  color: #fff;
+	}
+	/*=======================================================
+
+	// Blog page
+
+=========================================================*/
+	
+	.comment-form .btn-sbm {
+		background-color: #fff;
+	}
+	
+	.comment-form .btn-sbm:hover,
+	.comment-form .btn-sbm:active,
+	.comment-form .btn-sbm:focus,
+	.comment-form .btn-sbm.active,
+	.comment-form .btn-sbm.focus {
+		color: #fff;
+		background-color: #EB2B34;
+		outline: none;
+	}
+	
+	.comment-form .btn-sbm.active,
+	.comment-form .btn-sbm.focus {
+		color: #fff;
+		background-color: #EB2B34;
+	}
+	
+	.blog-content aside ul li:first-child {
+		background-color: #fff;
+	}
+	
+	.blog-content aside ul li:not(:first-child):hover {
+		background-color: #fff;
+		cursor: pointer;
+	}
+	
+	.blog-content aside button {
+		background-color: #fff;
+	}
+	
+	.blog-content aside button:hover {
+		background-color: #E42A32;
+	}

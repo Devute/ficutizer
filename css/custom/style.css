@@ -1,0 +1,852 @@
+html {
+	font-size: 100%;
+	line-height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1,
+h3,
+h4,
+h5 {
+	text-transform: uppercase;
+}
+
+p,
+h3,
+h5,
+h6 {
+	color: #000;
+}
+
+h1,
+h4 {
+	color: #fff;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	opacity: 0.85;
+	line-height: 1.75;
+}
+
+h1 {
+	font-size: 3.75rem;
+	font-weight: 800;
+	line-height: 4.5rem;
+	letter-spacing: 0.1rem;
+	color: #fff;
+}
+
+h3 {
+	font-size: 2.25rem;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 1px;
+	margin-bottom: 35px;
+	opacity: 0.9;
+}
+
+h4 {
+	font-size: 1.88rem;
+	font-weight: 600;
+	line-height: 48px;
+	letter-spacing: 0.05rem;
+}
+
+h5 {
+	font-size: 24px;
+	font-weight: 600;
+	opacity: 0.9;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: capitalize;
+	opacity: 0.9;
+}
+
+.btn-default {
+	font-size: 1.125rem;
+	line-height: 28px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 14px 45px;
+	font-weight: 600;
+	border-radius: 0;
+	-webkit-transition: 400ms linear;
+	-moz-transition: 400ms linear;
+	-o-transition: 400ms linear;
+	transition: 400ms linear;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+	outline: none !important;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	width: 26%;
+	margin-top: 40px;
+}
+
+
+/*=======================================================
+
+	// NAVIGATION
+
+=========================================================*/
+
+.navbar-custom {
+	background-color: transparent;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	-webkit-transition-duration: 400ms;
+	-moz-transition-duration: 400ms;
+	-o-transition-duration: 400ms;
+	transition-duration: 400ms;
+}
+
+.navbar-custom .navbar-toggle {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 1px 2px;
+	border: 1px solid #fff;
+}
+
+.navbar-custom .navbar-brand {
+  margin-top: -10px;
+}
+.navbar-custom .navbar-nav {
+	margin-right: 35px;
+}
+
+.navbar-custom .navbar-nav li a {
+	font-size: 18px;
+	font-weight: 600;
+	color: #444343;
+	text-transform: uppercase;
+	display: block;
+	position: relative;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 30px;
+	-webkit-transition-duration: 400ms;
+	-moz-transition-duration: 400ms;
+	-o-transition-duration: 400ms;
+	transition-duration: 400ms;
+}
+
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+	background: none;
+	outline: none;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  color: #e42a32;
+}
+
+/*============================= End Navigation =============================*/
+
+
+/*=======================================================
+
+	// HEADER SECTION
+
+=========================================================*/
+
+.header {
+	background: url("../../images/header-bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-bottom: 150px;
+	background-attachment: fixed;
+}
+.header h1 {
+  margin-bottom: 20px;
+  padding-right: 40%;
+  padding-top: 220px;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.69);
+}
+.mobile-center h4 {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.43);
+}
+
+.header h4 {
+	margin-bottom: 70px;
+}
+
+
+/*============================= End Header Section =============================*/
+
+
+/*=======================================================
+
+	// Second section: Services
+
+=========================================================*/
+
+#service {
+	margin-top: 90px;
+}
+
+.service,
+.service i,
+.service h5 {
+	-moz-transition: 400ms linear;
+	-webkit-transition: 400ms linear;
+	transition: 400ms linear;
+}
+
+.service {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 30px 30px;
+	margin-top: 50px;
+}
+
+.service i {
+	font-size: 40px;
+	color: #000;
+	opacity: 0.8;
+}
+
+.service h5 {
+	opacity: 0.8;
+	margin-top: 28px;
+	margin-bottom: 15px;
+}
+
+.service a,
+.service span {
+	-moz-transition: all 200ms;
+	-webkit-transition: all 200ms;
+	transition: all 200ms;
+}
+
+.service a {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 24px;
+	color: #000;
+	opacity: 0.8;
+	outline: none;
+	position: relative;
+}
+
+.service a:hover,
+.service a:active,
+.service a:focus {
+	text-decoration: none;
+	outline: none !important;
+}
+
+.service span {
+	position: absolute;
+	right: 0;
+	opacity: 0;
+	display: inline-block;
+}
+
+.service a:hover span,
+.service a:focus span {
+	opacity: 1;
+	right: -20px;
+}
+
+
+/*============================= End Second Section =============================*/
+
+
+/*=======================================================
+
+	// Third section: About
+
+=========================================================*/
+
+.about {
+	background: url("../../images/about-bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 110px;
+	background-attachment: fixed;
+}
+
+.about .black-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about .colored-overlay {
+	padding-top: 80px;
+	padding-right: 10%;
+	padding-left: 70px;
+	padding-bottom: 30px;
+}
+
+.about h3,
+.about p {
+	color: #fff !important;
+	opacity: 1 !important;
+}
+
+.about .section-heading p {
+	position: relative;
+	margin-bottom: 85px;
+}
+
+.about .section-heading p:after {
+	content: '';
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	height: 1px;
+	width: 200px;
+	background-color: #fff;
+}
+
+.single-details {
+	margin-top: 50px;
+}
+
+.single-details .point-no {
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: 300;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+.single-details .single-point-detail h5 {
+	color: #fff !important;
+}
+
+
+/*============================= End Third Section =============================*/
+
+
+/*=======================================================
+
+	// Fourth section: Portfolio
+
+=========================================================*/
+
+.portfolio {
+	margin-top: 90px;
+}
+
+.portfolio ul {
+	margin-top: 50px;
+}
+
+.portfolio ul li {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	opacity: 0.9;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.portfolio .single-portfolio {
+	margin-top: 65px;
+	overflow: hidden;
+}
+
+.portfolio .single-portfolio figure {
+	position: relative;
+}
+
+.portfolio .single-portfolio figcaption {
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 45px;
+	border-width: 0px 1px 1px;
+	border-style: solid;
+	border-color: #000;
+	opacity: 0.9;
+}
+
+.hover-overlay {
+	position: absolute;
+	width: 100%;
+	max-width: inherit;
+	height: 100%;
+	max-height: inherit;
+	top: 0;
+	-moz-display: flex;
+	-webkit-display: flex;
+	display: flex;
+	-moz-transition: opacity 400ms linear;
+	-webkit-transition: opacity 400ms linear;
+	transition: opacity 400ms linear;
+	opacity: 0;
+}
+
+.hover-overlay span {
+	font-size: 120px;
+	color: #fff;
+	margin: auto;
+}
+
+.portfolio .single-portfolio:hover .hover-overlay {
+	opacity: 1;
+}
+
+
+/*============================= End Fourth Section =============================*/
+
+
+/*=======================================================
+
+	// Fifth section: Video intro
+
+=========================================================*/
+
+.intro-video {
+	background: url(../../images/video-img-bg.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 335px;
+}
+
+.intro-video .video-bg-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+
+.intro-video .video-bg-image {
+	background: url(../../images/video-img.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	margin-top: -25%;
+	-moz-box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.intro-video .video-bg-image-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.intro-video h3,
+.intro-video p {
+	color: #fff;
+}
+
+.intro-video .video-btn {
+	font-size: 60px;
+	color: #fff;
+	opacity: 0.8;
+	margin-top: 20px;
+	-moz-transition: transform 400ms linear;
+	-webkit-transition: transform 400ms linear;
+	transition: transform 400ms linear;
+}
+
+.intro-video .modal .modal-header {
+	border-bottom: none;
+}
+
+.intro-video .video-btn:hover {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+.intro-video .modal-content {
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+}
+
+.intro-video .modal-content .close {
+	float: right;
+	font-size: 42px;
+	color: #fff;
+	opacity: 1;
+}
+
+.intro-video .modal-content .close:focus {
+	outline: none;
+}
+
+.intro-video iframe {
+	height: 315px;
+	width: 100%;
+	border: 0;
+	-webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.modal-open {
+	padding-right: 0 !important;
+}
+
+
+/*============================= End Fifth Section =============================*/
+
+
+/*=======================================================
+
+	// Sixth section: Team Members
+
+=========================================================*/
+
+#team {
+	margin-top: 90px;
+	margin-bottom: 110px;
+}
+
+.single-member {
+	margin-top: 175px;
+	padding-bottom: 10px;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.7);
+}
+
+.single-member img {
+	max-width: 50%;
+	margin-top: -100px;
+	margin-bottom: 10px;
+}
+
+.single-member-link {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.single-member-link a i {
+  color: #fff;
+  font-size: 31px;
+  padding: 4px 3px;
+}
+
+/*============================= End Fifth Section =============================*/
+
+
+/*=======================================================
+
+	// Seventh section: Blog
+
+=========================================================*/
+
+.blog {
+	background-color: #f6f6f6;
+	padding-top: 90px;
+	padding-bottom: 110px;
+}
+
+.blog .single-blog {
+	margin-top: 75px;
+}
+
+.blog .single-blog img {
+	margin: auto;
+}
+
+.blog .single-blog .blog-post {
+	padding: 15px;
+	border-width: 0px 1px 1px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.7);
+}
+
+.blog .single-blog .blog-post p.author-info {
+	font-style: italic;
+	text-transform: capitalize;
+	line-height: 20px;
+}
+
+.blog .single-blog .blog-post h5 {
+	line-height: 30px;
+}
+
+.blog .single-blog .blog-post p>a {
+	color: #000;
+	opacity: 0.8;
+	font-weight: 400;
+}
+
+.blog .single-blog .blog-post .btn-link {
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	line-height: 24px;
+	opacity: 0.8;
+}
+
+.blog-btn .btn-default {
+	margin-top: 75px;
+	border: 1px solid #000;
+	background-color: #f7f7f7;
+	color: #000;
+}
+
+
+/*============================= End Seventh Section =============================*/
+
+
+/*=======================================================
+
+	// Eigth section: Testimonial
+
+=========================================================*/
+
+.testimonial-slider {
+	margin-top: 90px;
+}
+
+.testimonial-slider .owl-carousel {
+	margin-top: 50px;
+}
+
+.testimonial-slider .owl-carousel .owl-stage-outer {
+	padding-bottom: 80px;
+}
+
+.testimonial-slider .owl-carousel .item .review {
+	padding: 13% 8% 5%;
+	margin-top: -80px;
+	-moz-box-shadow: 0px 25px 55px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 25px 55px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 25px 55px 0px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-slider .owl-carousel .item img {
+	max-width: 25%;
+	min-width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*============================= End Eighth Section =============================*/
+
+
+/*=======================================================
+
+	// Ninth section: Contact
+
+=========================================================*/
+
+#contact {
+	margin-top: 90px;
+}
+
+.contact-form {
+	background: url("../../images/contact-bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.contact-form-overlay {
+	padding: 80px 140px 70px 70px;
+}
+
+.contact-form form {
+	display: block;
+}
+
+.contact-form h3 {
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+.contact-form .form-group {
+	margin-bottom: 0;
+	padding-left: 0 !important;
+}
+
+.contact-form .form-control {
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	background-color: transparent;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email] {
+	height: 60px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.contact-form input[type=text]:focus,
+.contact-form input[type=email]:focus {
+	border: 1px solid #fff;
+}
+
+.contact-form textarea {
+	border: 1px solid #fff !important;
+	color: #fff;
+}
+
+.contact-form :-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.8) !important;
+	font-size: 16px !important;
+}
+
+.contact-form ::-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.8) !important;
+	font-size: 16px !important;
+}
+
+.contact-form ::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.8) !important;
+	font-size: 16px !important;
+}
+
+.contact-form ::-moz-placeholder {
+	color: rgba(255, 255, 255, 0.8) !important;
+	font-size: 16px !important;
+}
+
+.contact-form ::input-placeholder {
+	color: rgba(255, 255, 255, 0.8) !important;
+	font-size: 16px !important;
+}
+
+.contact-form .btn-sbm {
+	padding: 18px 0;
+	width: 100%;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background-color: #fff;
+	border-radius: 0;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+}
+
+
+/*============================= End Ninth Section =============================*/
+
+
+/*=======================================================
+
+	// Tenth section: Client slider
+
+=========================================================*/
+
+.client {
+	padding-top: 115px;
+	padding-bottom: 115px;
+	background-color: #f7f7f7;
+}
+
+.client img {
+	width: 100%;
+	max-width: 150px;
+	height: 100%;
+	max-height: 48px;
+}
+
+
+/*=======================================================
+
+	// Footer SECTION
+
+=========================================================*/
+
+ 
+
+footer h5 {
+	color: #fff;
+	opacity: 1;
+}
+
+footer ul li a {
+	font-size: 16px;
+	line-height: 36px;
+	text-transform: capitalize;
+	color: #fff;
+	opacity: 1;
+}
+
+footer ul li a:hover,
+footer ul li a:focus {
+	color: #fff;
+	outline: none;
+}
+
+footer p {
+	color: #fff;
+	opacity: 1;
+}
+.footer-left-side {
+  font-size: 14px;
+}
+.footer-left-side img {
+  width: 80%;
+}
+.footer-left-side p {
+  font-size: 15px;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+.address i {
+  display: inline-block;
+  margin-right: 3px;
+  text-align: center;
+  width: 12px;
+}
+.social-netwokring-area a {
+	color: white;
+}
+.footer-bottom-box {
+	margin-top: 10px;
+}
+.copyright-areas a {
+	color: #dbdbdb;
+	font-weight: bold;
+}
+/*============================= End Footer Section =============================*/
+
