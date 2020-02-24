@@ -9,4 +9,6 @@ Features:
 - Easy to use and customize.
 - Documentation available and many more....
 
+live demo: https://devute.github.io/ficutizer/
+
 For any type or support please contact us: http:devute.com
