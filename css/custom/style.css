@@ -818,8 +818,9 @@ footer ul li a:focus {
 }
 
 footer p {
-	color: #fff;
-	opacity: 1;
+    color: #fff;
+    opacity: 1;
+    font-size: 12px;
 }
 .footer-left-side {
   font-size: 14px;
@@ -847,6 +848,9 @@ footer p {
 .copyright-areas a {
 	color: #dbdbdb;
 	font-weight: bold;
+}
+.text-right.social-netwokring-area a {
+    margin-right: 19px;
 }
 /*============================= End Footer Section =============================*/
 
